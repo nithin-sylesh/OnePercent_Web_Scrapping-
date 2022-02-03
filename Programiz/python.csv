@@ -1,0 +1,161 @@
+Links,Chapter Headings,Description,List Headings,Unordered Lists,Ordered Lists
+https://www.programiz.com/python-programming,,"Python is a powerful general-purpose programming language. It is used in web development, data science, creating software prototypes, and so on. Fortunately for beginners, Python has simple easy-to-use syntax. This makes Python an excellent language to learn to program for beginners. Our Python tutorial will guide you to learn Python one step at a time. If you prefer videos, watch our Python for beginners playlist on Youtube.",Introduction$$$Python Flow Control$$$Python Functions$$$Python Datatypes$$$Python Files$$$Python Object & Class$$$Python Advanced Topics$$$Python Date & Time|||About Python Programming$$$Why Learn Python?$$$How to learn Python?$$$Python Resources,"Getting Started$$$Keywords and Identifiers$$$Statements & Comments$$$Python Variables$$$Python Datatypes$$$Python Type Conversion$$$Python I/O and import$$$Python Operators$$$Python Namespace|||Python if...else$$$Python for Loop$$$Python while Loop$$$Python break and continue$$$Python Pass|||Python Functions$$$Function Argument$$$Python Recursion$$$Anonymous Function$$$Global, Local and Nonlocal$$$Python Global Keyword$$$Python Modules$$$Python Package|||Python Numbers$$$Python List$$$Python Tuple$$$Python String$$$Python Set$$$Python Dictionary|||Python File Operation$$$Python Directory$$$Python Exception$$$Python Exception Handling$$$Python User-defined Exception|||Python OOP$$$Python Class$$$Python Inheritance$$$Multiple Inheritance$$$Operator Overloading|||Python Iterator$$$Python Generator$$$Python Closure$$$Python Decorators$$$Python Property$$$Python RegEx$$$Python Examples|||Python datetime Module$$$Python datetime.strftime()$$$Python datetime.strptime()$$$Current date & time$$$Get current time$$$Timestamp to datetime$$$Python time Module$$$Python time.sleep()|||Getting Started$$$Keywords and Identifiers$$$Statements & Comments$$$Python Variables$$$Python Datatypes$$$Python Type Conversion$$$Python I/O and import$$$Python Operators$$$Python Namespace|||Python if...else$$$Python for Loop$$$Python while Loop$$$Python break and continue$$$Python Pass|||Python Functions$$$Function Argument$$$Python Recursion$$$Anonymous Function$$$Global, Local and Nonlocal$$$Python Global Keyword$$$Python Modules$$$Python Package|||Python Numbers$$$Python List$$$Python Tuple$$$Python String$$$Python Set$$$Python Dictionary|||Python File Operation$$$Python Directory$$$Python Exception$$$Python Exception Handling$$$Python User-defined Exception|||Python OOP$$$Python Class$$$Python Inheritance$$$Multiple Inheritance$$$Operator Overloading|||Python Iterator$$$Python Generator$$$Python Closure$$$Python Decorators$$$Python Property$$$Python RegEx$$$Python Examples|||Python datetime Module$$$Python datetime.strftime()$$$Python datetime.strptime()$$$Current date & time$$$Get current time$$$Timestamp to datetime$$$Python time Module$$$Python time.sleep()|||Free and open-source - You can freely use and distribute Python, even for commercial use.$$$Easy to learn - Python has a very simple and elegant syntax. It's much easier to read and write Python programs compared to other languages like C++, Java, C#.$$$Portable - You can move Python programs from one platform to another, and run it without any changes.|||Python is easy to learn. Its syntax is easy and code is very readable.$$$Python has a lot of applications. It's used for developing web applications, data science, rapid application development, and so on.$$$Python allows you to write programs in fewer lines of code than most of the programming languages.$$$The popularity of Python is growing rapidly. Now it's one of the most popular programming languages.|||Python tutorial from Programiz - We provide step by step Python tutorials, examples, and references. Get started with Python.$$$Official Python tutorial - Might be hard to follow and understand for beginners. Visit the official Python tutorial.$$$Get Learn Python App - The beginner-friendly app contains byte-size lessons and an integrated Python interpreter. To learn more, visit: Learn Python app$$$Write a lot of Python code- The only way you can learn programming is by writing a lot of code.|||Python Examples$$$Python References$$$Python Online Compiler$$$Python Guide$$$Python Tutorial Videos",
+https://www.programiz.com/python-programming/first-program,How to Get Started With Python?,,"1. Run Python in Immediate mode$$$2. Run Python in the Integrated Development Environment (IDE)$$$Table of Contents
+      
+|||Video: Introduction to Python$$$The Easiest Way to Run Python$$$Install Python Separately$$$Your first Python Program",,"Download Thonny IDE.$$$Run the installer to install Thonny on your computer.$$$Go to: File > New. Then save the file with .py extension. For example, hello.py, example.py, etc. 		You can give any name to the file. However, the file name should end with .py$$$Write Python code in the file and save it. 		Running Python using Thonny IDE$$$Then Go to Run > Run current script or simply click F5 to run it.|||Download the latest version of Python.$$$Run the installer file and follow the steps to install Python 		During the install process, check Add Python to environment variables. This will add Python to environment variables, and you can run Python from any part of the computer. 		Also, you can choose the path where Python is installed. 		Installing Python on the computer"
+https://www.programiz.com/python-programming/keywords-identifier,Python Keywords and Identifiers,,"Rules for writing identifiers$$$Things to Remember$$$Table of Contents
+      
+|||Python Keywords$$$Python Identifiers",,"Identifiers can be a combination of letters in lowercase (a to z) or uppercase (A to Z) or digits (0 to 9) or an underscore _. Names like myClass, var_1 and print_this_to_screen, all are valid example.$$$An identifier cannot start with a digit. 1variable is invalid, but variable1 is a valid name.$$$Keywords cannot be used as identifiers. 		 global = 1 Output    File ""<interactive input>"", line 1     global = 1            ^ SyntaxError: invalid syntax $$$We cannot use special symbols like !, @, #, $, % etc. in our identifier. 		 a@ = 0 Output    File ""<interactive input>"", line 1     a@ = 0      ^ SyntaxError: invalid syntax $$$An identifier can be of any length."
+https://www.programiz.com/python-programming/statement-indentation-comments,"Python Statement, Indentation and Comments",,"Multi-line statement$$$Multi-line comments$$$Docstrings in Python$$$Table of Contents
+      
+|||Python Statement$$$Python Indentation$$$Python Comments",,
+https://www.programiz.com/python-programming/variables-constants-literals,"Python Variables, Constants and Literals",,"Example 1: Declaring and assigning value to a variable$$$Example 2: Changing the value of a variable$$$Example 3: Assigning multiple values to multiple variables$$$Example 3: Declaring and assigning value to a constant$$$Example 4: How to use Numeric literals in Python?$$$Example 7: How to use string literals in Python?$$$Example 8: How to use boolean literals in Python?$$$Example 9: How to use special literals in Python?$$$Example 10: How to use literals collections in Python?$$$Table of Contents
+      
+|||Video: Python Variables and print()$$$Python Variables$$$Assigning values to Variables in Python$$$Constants$$$Assigning value to constant in Python$$$Rules and Naming Convention for Variables and constants$$$Literals$$$Numeric Literals$$$String literals$$$Boolean literals$$$Special literals$$$Literal Collections",,"Constant and variable names should have a combination of letters in lowercase (a to z) or uppercase (A to Z) or digits (0 to 9) or an underscore (_). For example:  		 snake_case MACRO_CASE camelCase CapWords $$$Create a name that makes sense. For example, vowel makes more sense than v.$$$If you want to create a variable name having two words, use underscore to separate them. For example: 		 my_name current_salary $$$Use capital letters possible to declare a constant. For example: 		 PI G MASS SPEED_OF_LIGHT TEMP $$$Never use special symbols like !, @, #, $, %, etc.$$$Don't start a variable name with a digit."
+https://www.programiz.com/python-programming/variables-datatypes,Python Data Types,,"Table of Contents
+      
+|||Data types in Python$$$Python Numbers$$$Python List$$$Python Tuple$$$Python Strings$$$Python Set$$$Python Dictionary$$$Conversion between data types",,
+https://www.programiz.com/python-programming/type-conversion-and-casting,Python Type Conversion and Type Casting,,"Example 1: Converting integer to float$$$Example 2: Addition of string(higher) data type and integer(lower) datatype$$$Example 3: Addition of string and integer using explicit conversion$$$Table of Contents
+      
+|||Type Conversion$$$Implicit Type Conversion$$$Explicit Type Conversion$$$Key Points to Remember",,"Implicit Type Conversion$$$Explicit Type Conversion|||Type Conversion is the conversion of object from one data type to another data type.$$$Implicit Type Conversion is automatically performed by the Python interpreter.$$$Python avoids the loss of data in Implicit Type Conversion.$$$Explicit Type Conversion is also called Type Casting, the data types of objects are converted using predefined functions by the user.$$$In Type Casting, loss of data may occur as we enforce the object to a specific data type."
+https://www.programiz.com/python-programming/input-output-import,"Python Input, Output and Import",,"Table of Contents
+      
+|||Video: Python Take User Input$$$Python Output Using print() function$$$Output formatting$$$Python Input$$$Python Import",,
+https://www.programiz.com/python-programming/operators,Python Operators,,"Example 1: Arithmetic operators in Python$$$Example 2: Comparison operators in Python$$$Example 3: Logical Operators in Python$$$Identity operators$$$Example 4: Identity operators in Python$$$Membership operators$$$Example #5: Membership operators in Python$$$Table of Contents
+      
+|||Video: Operators in Python$$$What are operators in python?$$$Arithmetic operators$$$Comparison operators$$$Logical operators$$$Bitwise operators$$$Assignment operators$$$Special operators",,
+https://www.programiz.com/python-programming/namespace,Python Namespace and Scope,,"Table of Contents
+      
+|||What is Name in Python?$$$What is a Namespace in Python?$$$Python Variable Scope$$$Example of Scope and Namespace in Python",,Scope of the current function which has local names$$$Scope of the module which has global names$$$Outermost scope which has built-in names
+https://www.programiz.com/python-programming/if-elif-else,Python if...else Statement,,"Python if Statement Syntax$$$Python if Statement Flowchart$$$Example: Python if Statement$$$Syntax of if...else$$$Python if..else Flowchart$$$Example of if...else$$$Syntax of if...elif...else$$$Flowchart of if...elif...else$$$Example of if...elif...else$$$Python Nested if Example$$$Table of Contents
+      
+|||Video: Python if...else Statement$$$What is if...else statement in Python?$$$Python if...else Statement$$$Python if...elif...else Statement$$$Python Nested if statements",,
+https://www.programiz.com/python-programming/for-loop,Python for Loop,,"Syntax of for Loop$$$Flowchart of for Loop$$$Example: Python for Loop$$$Table of Contents
+      
+|||Video: Python for Loop$$$What is for loop in Python?$$$The range() function$$$for loop with else",,
+https://www.programiz.com/python-programming/while-loop,Python while Loop,,"Syntax of while Loop in Python$$$Flowchart of while Loop$$$Example: Python while Loop$$$Table of Contents
+      
+|||Video: Python while Loop$$$What is while loop in Python?$$$While loop with else",,
+https://www.programiz.com/python-programming/break-continue,Python break and continue,,"Syntax of break$$$Flowchart of break$$$Example: Python break$$$Syntax of Continue$$$Flowchart of continue $$$Example: Python continue$$$Table of Contents
+      
+|||Video: Python break and continue Statement$$$What is the use of break and continue in Python?$$$Python break statement$$$Python continue statement",,
+https://www.programiz.com/python-programming/pass-statement,Python pass statement,,"Syntax of pass$$$Example: pass Statement$$$Table of Contents
+      
+|||Video: Python pass Statement$$$What is pass statement in Python?",,
+https://www.programiz.com/python-programming/function,Python Functions,,"Syntax of Function$$$Example of a function$$$How to call a function in python?$$$Syntax of return$$$Example of return$$$Table of Contents
+      
+|||Video: Introduction to Python Functions$$$What is a function in Python?$$$Docstrings$$$The return statement$$$How Function works in Python?$$$Scope and Lifetime of variables$$$Types of Functions",,Keyword def that marks the start of the function header.$$$A function name to uniquely identify the function. Function naming follows the same rules of writing identifiers in Python.$$$Parameters (arguments) through which we pass values to a function. They are optional.$$$A colon (:) to mark the end of the function header.$$$Optional documentation string (docstring) to describe what the function does.$$$One or more valid python statements that make up the function body. Statements must have the same indentation level (usually 4 spaces).$$$An optional return statement to return a value from the function.|||Built-in functions - Functions that are built into Python.$$$User-defined functions - Functions defined by the users themselves.
+https://www.programiz.com/python-programming/function-argument,Python Function Arguments,,"Python Default Arguments$$$Python Keyword Arguments$$$Python Arbitrary Arguments$$$Table of Contents
+      
+|||Video: Python Function Arguments: Positional, Keywords and Default$$$Arguments$$$Variable Function Arguments",,
+https://www.programiz.com/python-programming/recursion,Python Recursion,,"Example of a recursive function$$$Table of Contents
+      
+|||What is recursion?$$$Python Recursive Function$$$Advantages of Recursion$$$Disadvantages of Recursion",,Recursive functions make the code look clean and elegant.$$$A complex task can be broken down into simpler sub-problems using recursion.$$$Sequence generation is easier with recursion than using some nested iteration.|||Sometimes the logic behind recursion is hard to follow through.$$$Recursive calls are expensive (inefficient) as they take up a lot of memory and time.$$$Recursive functions are hard to debug.
+https://www.programiz.com/python-programming/anonymous-function,Python Anonymous/Lambda Function,,"Syntax of Lambda Function in python$$$Example of Lambda Function in python$$$Example use with filter()$$$Example use with map()$$$Table of Contents
+      
+|||Video: Python Lambda$$$What are lambda functions in Python?$$$How to use lambda Functions in Python?$$$Use of Lambda Function in python",,
+https://www.programiz.com/python-programming/global-local-nonlocal-variables,"Python Global, Local and Nonlocal variables",,"Example 1: Create a Global Variable$$$Example 2: Accessing local variable outside the scope$$$Example 3: Create a Local Variable$$$Example 4: Using Global and Local variables in the same code$$$Example 5: Global variable and Local variable with same name$$$Example 6: Create a nonlocal variable$$$Table of Contents
+      
+|||Video: Python Local and Global Variables$$$Global Variables$$$Local Variables$$$Global and local variables$$$Nonlocal Variables",,
+https://www.programiz.com/python-programming/global-keyword,Python Global Keyword ,,"Table of Contents
+      
+|||What is the global keyword$$$Rules of global Keyword$$$Use of global Keyword$$$Global Variables Across Python Modules$$$Global in Nested Functions",,
+https://www.programiz.com/python-programming/modules,Python Modules,,"Python import statement$$$Import with renaming$$$Python from...import statement$$$Import all names$$$Table of Contents
+      
+|||Video: Python Modules$$$What are modules in Python?$$$How to import modules in Python?$$$Python Module Search Path$$$Reloading a module$$$The dir() built-in function",,
+https://www.programiz.com/python-programming/package,Python Package,,"Table of Contents
+      
+|||Video: Python Packages: Organize Your Code$$$What are packages?$$$Importing module from a package",,
+https://www.programiz.com/python-programming/numbers,"Python Numbers, Type Conversion and Mathematics",,"When to use Decimal instead of float?$$$Table of Contents
+      
+|||Number Data Type in Python$$$Type Conversion$$$Python Decimal$$$Python Fractions$$$Python Mathematics",,
+https://www.programiz.com/python-programming/list,Python List,,"List Index$$$Negative indexing$$$List Membership Test$$$Iterating Through a List$$$Table of Contents
+      
+|||Video: Python Lists and Tuples$$$Create Python Lists$$$Access List Elements$$$List Slicing in Python$$$Add/Change List Elements$$$Delete List Elements$$$Python List Methods$$$List Comprehension: Elegant way to create Lists$$$Other List Operations in Python",,
+https://www.programiz.com/python-programming/tuple,Python Tuple,,"1. Indexing$$$2. Negative Indexing$$$3. Slicing$$$1. Tuple Membership Test$$$2. Iterating Through a Tuple$$$Advantages of Tuple over List$$$Table of Contents
+      
+|||Video: Python Lists and Tuples$$$Creating a Tuple$$$Access Tuple Elements$$$Changing a Tuple$$$Deleting a Tuple$$$Tuple Methods$$$Other Tuple Operations",,
+https://www.programiz.com/python-programming/string,Python Strings,,"Concatenation of Two or More Strings$$$Iterating Through a string$$$String Membership Test$$$Built-in functions to Work with Python$$$Escape Sequence$$$Raw String to ignore escape sequence$$$The format() Method for Formatting Strings$$$Old style formatting$$$Table of Contents
+      
+|||Video: Python Strings$$$What is String in Python?$$$How to create a string in Python?$$$How to access characters in a string?$$$How to change or delete a string?$$$Python String Operations$$$Python String Formatting$$$Common Python String Methods",,
+https://www.programiz.com/python-programming/set,Python Sets,,"Set Union$$$Set Intersection$$$Set Difference$$$Set Symmetric Difference$$$Set Membership Test$$$Iterating Through a Set$$$Built-in Functions with Set$$$Table of Contents
+      
+|||Video: Sets in Python$$$Creating Python Sets$$$Modifying a set in Python$$$Removing elements from a set$$$Python Set Operations$$$Other Python Set Methods$$$Other Set Operations$$$Python Frozenset",,
+https://www.programiz.com/python-programming/dictionary,Python Dictionary ,,"Dictionary Membership Test$$$Iterating Through a Dictionary$$$Dictionary Built-in Functions$$$Table of Contents
+      
+|||Video: Python Dictionaries to Store key/value Pairs$$$Creating Python Dictionary$$$Accessing Elements from Dictionary$$$Changing and Adding Dictionary elements$$$Removing elements from Dictionary$$$Python Dictionary Methods$$$Python Dictionary Comprehension$$$Other Dictionary Operations",,
+https://www.programiz.com/python-programming/file-operation,Python File I/O,,"Table of Contents
+      
+|||Video: Reading and Writing Files in Python$$$Files$$$Opening Files in Python$$$Closing Files in Python$$$Writing to Files in Python$$$Reading Files in Python$$$Python File Methods",,Open a file$$$Read or write (perform operation)$$$Close the file
+https://www.programiz.com/python-programming/directory,Python Directory and Files Management,,"Table of Contents
+      
+|||Video: Python os Module$$$Python Directory$$$Get Current Directory$$$Changing Directory$$$List Directories and Files$$$Making a New Directory$$$Renaming a Directory or a File$$$Removing Directory or File",,
+https://www.programiz.com/python-programming/exceptions,Python Errors and Built-in Exceptions,,"Table of Contents
+      
+|||Video: Python Exception Handling$$$Python Syntax Errors$$$Python Logical Errors (Exceptions)$$$Python Built-in Exceptions",,Syntax errors$$$Logical errors (Exceptions)
+https://www.programiz.com/python-programming/exception-handling,"Python Exception Handling Using try, except and finally statement",,"Table of Contents
+      
+|||Video: Python Exception Handling (try..except..finally)$$$Exceptions in Python$$$Catching Exceptions in Python$$$Catching Specific Exceptions in Python$$$Raising Exceptions in Python$$$Python try with else clause$$$Python try...finally",,
+https://www.programiz.com/python-programming/user-defined-exception,Python Custom Exceptions,,"Table of Contents
+      
+|||Creating Custom Exceptions$$$Example: User-Defined Exception in Python$$$Customizing Exception Classes",,
+https://www.programiz.com/python-programming/object-oriented-programming,Python Object Oriented Programming,,"Example 1: Creating Class and Object in Python$$$Example 2 : Creating Methods in Python$$$Example 3: Use of Inheritance in Python$$$Example 4: Data Encapsulation in Python$$$Example 5: Using Polymorphism in Python$$$Table of Contents
+      
+|||Video: Object-oriented Programming in Python$$$Object Oriented Programming$$$Class$$$Object$$$Methods$$$Inheritance$$$Encapsulation$$$Polymorphism$$$Key Points to Remember:",,
+https://www.programiz.com/python-programming/class,Python Objects and Classes,,"Table of Contents
+      
+|||Video: Python Classes and Objects$$$Python Objects and Classes$$$Defining a Class in Python$$$Creating an Object in Python$$$Constructors in Python$$$Deleting Attributes and Objects",,
+https://www.programiz.com/python-programming/inheritance,Python Inheritance,,"Python Inheritance Syntax$$$Example of Inheritance in Python$$$Table of Contents
+      
+|||Video: Python Inheritance$$$Inheritance in Python$$$Method Overriding in Python",,
+https://www.programiz.com/python-programming/multiple-inheritance,Python Multiple Inheritance,,"Example$$$Table of Contents
+      
+|||Python Multiple Inheritance$$$Python Multilevel Inheritance$$$Method Resolution Order in Python",,
+https://www.programiz.com/python-programming/operator-overloading,Python Operator Overloading,,"Table of Contents
+      
+|||Python Operator Overloading$$$Python Special Functions$$$Overloading the + Operator$$$Overloading Comparison Operators",,
+https://www.programiz.com/python-programming/iterator,Python Iterators,,"Table of Contents
+      
+|||Video: Python Iterators$$$Iterators in Python$$$Iterating Through an Iterator$$$Working of for loop for Iterators$$$Building Custom Iterators$$$Python Infinite Iterators",,
+https://www.programiz.com/python-programming/generator,Python Generators,,"1. Easy to Implement$$$2. Memory Efficient$$$3. Represent Infinite Stream$$$4. Pipelining Generators$$$Table of Contents
+      
+|||Video: Python Generators$$$Generators in Python$$$Create Generators in Python$$$Differences between Generator function and Normal function$$$Python Generators with a Loop$$$Python Generator Expression$$$Use of Python Generators",,
+https://www.programiz.com/python-programming/closure,Python Closures,,"Table of Contents
+      
+|||Nonlocal variable in a nested function$$$Defining a Closure Function$$$When do we have closures?$$$When to use closures?",,
+https://www.programiz.com/python-programming/decorator,Python Decorators,,"Table of Contents
+      
+|||Video: @Decorators in Python$$$Decorators in Python$$$Prerequisites for learning decorators$$$Getting back to Decorators$$$Decorating Functions with Parameters$$$Chaining Decorators in Python",,
+https://www.programiz.com/python-programming/property,Python @property decorator,,"Table of Contents
+      
+|||Class Without Getters and Setters$$$Using Getters and Setters$$$The property Class$$$The @property Decorator",,
+https://www.programiz.com/python-programming/regex,Python RegEx,,"MetaCharacters$$$Example 1: re.findall()$$$Example 2: re.split()$$$Example 3: re.sub()$$$Example 4: re.subn()$$$Example 5: re.search()$$$match.group()$$$Example 6: Match object$$$match.start(), match.end() and match.span()$$$match.re and match.string$$$Using r prefix before RegEx$$$Example 7: Raw string using r prefix$$$Table of Contents
+      
+|||Specify Pattern Using RegEx$$$Python RegEx$$$re.findall()$$$re.split()$$$re.sub()$$$re.subn()$$$re.search()$$$Match object",,
+https://www.programiz.com/python-programming/examples,,The best way to learn Python is by practicing examples. This page             contains examples on basic concepts of Python. We encourage you to try these examples on your own before looking at the solution. All the programs on this page are tested and should work on all platforms.,|||,,
+https://www.programiz.com/python-programming/datetime,Python datetime,,"Example 1: Get Current Date and Time$$$Example 2: Get Current Date$$$Example 3: Date object to represent a date$$$Example 4: Get current date$$$Example 5: Get date from a timestamp$$$Example 6: Print today's year, month and day$$$Example 7: Time object to represent time$$$Example 8: Print hour, minute, second and microsecond$$$Example 9: Python datetime object$$$Example 10: Print year, month, hour, minute and timestamp$$$Example 11: Difference between two dates and times$$$Example 12: Difference between two timedelta objects$$$Example 13: Printing negative timedelta object$$$Example 14: Time duration in seconds$$$Python strftime() - datetime object to string$$$Example 15: Format date using strftime()$$$Python strptime() - string to datetime$$$Example 16: strptime()$$$Table of Contents
+      
+|||Video: Python datetime - Work with Dates and Times$$$datetime.date Class$$$datetime.time$$$datetime.datetime$$$datetime.timedelta$$$Python format datetime$$$Handling timezone in Python",,a string representing date and time$$$format code equivalent to the first argument
+https://www.programiz.com/python-programming/datetime/strftime,Python strftime(),,"Table of Contents
+      
+|||Video: Dates and Times in Python$$$Example 1: datetime to string using strftime()$$$How strftime() works?$$$Example 2: Creating string from a timestamp$$$Format Code List$$$Example 3: Locale's appropriate date and time",,We imported datetime class from the datetime module. It's because the object of datetime class can access strftime() method.$$$The datetime object containing current date and time is stored in now variable.$$$The strftime() method can be used to create formatted strings.$$$The string you pass to the strftime() method may contain more than one format codes.
+https://www.programiz.com/python-programming/datetime/strptime,Python strptime(),,"How strptime() works?$$$ValueError in strptime()$$$Table of Contents
+      
+|||Video: Dates and Times in Python$$$Example 1: string to datetime object$$$Example 2: string to datetime object$$$Format Code List",,
+https://www.programiz.com/python-programming/datetime/current-datetime,How to get current date and time in Python?,,"Table of Contents
+      
+|||Video: Dates and Times in Python$$$Example 1: Python get today's date$$$Example 2: Current date in different formats$$$Example 3: Get the current date and time",,
+https://www.programiz.com/python-programming/datetime/current-time,Python Get Current time,,"Table of Contents
+      
+|||Example 1: Current time using datetime object$$$Example 2: Current time using time module$$$Example 3: Current time of a timezone",,
+https://www.programiz.com/python-programming/datetime/timestamp-datetime,Python timestamp to datetime and vice-versa,,|||Example 1: Python timestamp to datetime$$$Example 2: Python datetime to timestamp,,
+https://www.programiz.com/python-programming/time,Python time Module,,"Python time.time()$$$Python time.ctime()$$$Python time.sleep()$$$Python time.localtime()$$$Python time.gmtime()$$$Python time.mktime()$$$Python time.asctime()$$$Python time.strftime()$$$Python time.strptime()$$$Table of Contents
+      
+|||time.struct_time Class",,
+https://www.programiz.com/python-programming/time/sleep,Python sleep(),,"Example 3: Python multithreading$$$Example 4: sleep() in a multithreaded program$$$Table of Contents
+      
+|||Example 1: Python sleep()$$$Example 2: Python create a digital clock$$$Multithreading in Python$$$time.sleep() in multithreaded programs",,
+https://www.programiz.com/python-programming/methods,,, Python Built-in Functions$$$Python abs()$$$Python any()$$$Python all()$$$Python ascii()$$$Python bin()$$$Python bool()$$$Python bytearray()$$$Python callable()$$$Python bytes()$$$Python chr()$$$Python compile()$$$Python classmethod()$$$Python complex()$$$Python delattr()$$$Python dict()$$$Python dir()$$$Python divmod()$$$Python enumerate()$$$Python staticmethod()$$$Python filter()$$$Python eval()$$$Python float()$$$Python format()$$$Python frozenset()$$$Python getattr()$$$Python globals()$$$Python exec()$$$Python hasattr()$$$Python help()$$$Python hex()$$$Python hash()$$$Python input()$$$Python id()$$$Python isinstance()$$$Python int()$$$Python issubclass()$$$Python iter()$$$Python list()$$$Python locals()$$$Python len()$$$Python max()$$$Python min()$$$Python map()$$$Python next()$$$Python memoryview()$$$Python object()$$$Python oct()$$$Python ord()$$$Python open()$$$Python pow()$$$Python print()$$$Python property()$$$Python range()$$$Python repr()$$$Python reversed()$$$Python round()$$$Python set()$$$Python setattr()$$$Python slice()$$$Python sorted()$$$Python str()$$$Python sum()$$$Python tuple()$$$Python type()$$$Python vars()$$$Python zip()$$$Python __import__()$$$Python super()$$$ Python Dictionary Methods$$$Python Dictionary clear()$$$Python Dictionary copy()$$$Python Dictionary fromkeys()$$$Python Dictionary get()$$$Python Dictionary items()$$$Python Dictionary keys()$$$Python Dictionary popitem()$$$Python Dictionary setdefault()$$$Python Dictionary pop()$$$Python Dictionary values()$$$Python Dictionary update()$$$ Python List Methods$$$Python List append()$$$Python List extend()$$$Python List insert()$$$Python List remove()$$$Python List index()$$$Python List count()$$$Python List pop()$$$Python List reverse()$$$Python List sort()$$$Python List copy()$$$Python List clear()$$$ Python Set Methods$$$Python Set remove()$$$Python Set add()$$$Python Set copy()$$$Python Set clear()$$$Python Set difference()$$$Python Set difference_update()$$$Python Set discard()$$$Python Set intersection()$$$Python Set intersection_update()$$$Python Set isdisjoint()$$$Python Set issubset()$$$Python Set issuperset()$$$Python Set pop()$$$Python Set symmetric_difference()$$$Python Set symmetric_difference_update()$$$Python Set union()$$$Python Set update()$$$Python frozenset()$$$ Python String Methods$$$Python String capitalize()$$$Python String center()$$$Python String casefold()$$$Python String count()$$$Python String endswith()$$$Python String expandtabs()$$$Python String encode()$$$Python String find()$$$Python String format()$$$Python String index()$$$Python String isalnum()$$$Python String isalpha()$$$Python String isdecimal()$$$Python String isdigit()$$$Python String isidentifier()$$$Python String islower()$$$Python String isnumeric()$$$Python String isprintable()$$$Python String isspace()$$$Python String istitle()$$$Python String isupper()$$$Python String join()$$$Python String ljust()$$$Python String rjust()$$$Python String lower()$$$Python String upper()$$$Python String swapcase()$$$Python String lstrip()$$$Python String rstrip()$$$Python String strip()$$$Python String partition()$$$Python String maketrans()$$$Python String rpartition()$$$Python String translate()$$$Python String replace()$$$Python String rfind()$$$Python String rindex()$$$Python String split()$$$Python String rsplit()$$$Python String splitlines()$$$Python String startswith()$$$Python String title()$$$Python String zfill()$$$Python String format_map()$$$ Python Tuple Methods$$$Python Tuple count()$$$Python Tuple index()|||,,
+https://www.programiz.com/python-programming/guide,Python Programming,,"Simple and easy to learn$$$Free and open-source$$$Portability$$$Extensible and Embeddable$$$High-Level Interpreted Language$$$Rich library and large community$$$1. Simple Elegant Syntax$$$2. Not overly strict$$$3. The expressiveness of the language$$$4. Great Community and Support$$$Learn Python from Programiz$$$Learn Python from Mobile App$$$Table of Contents
+      
+|||What is Python Programming Language?$$$Features of Python Programming$$$Reasons to Choose Python as First Language$$$How you can learn to code in Python?$$$Final Words",,
